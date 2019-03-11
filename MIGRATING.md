@@ -19,7 +19,7 @@ The simplest way to construct a client is via code:
 ```csharp
 var client = new OktaClient(new OktaClientConfiguration
 {
-    OrgUrl = "https://{{yourOktaDomain}}",
+    OktaDomain = "https://{{yourOktaDomain}}",
     Token = "{{yourApiToken}}"
 });
 ```
